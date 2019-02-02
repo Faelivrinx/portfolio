@@ -32,7 +32,7 @@ class Portfolios extends Component {
     render() {
         const posts = this.props.initialData;
         return (
-            <BaseLayout>
+            <BaseLayout className="cover"> 
                 <h1>Portfolio</h1>
                 <ul>
                     {this.renderPosts(posts)}

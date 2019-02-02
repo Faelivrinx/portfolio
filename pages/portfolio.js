@@ -22,7 +22,7 @@ class Portfolio extends Component {
 
 
         return ( 
-            <BaseLayout>
+            <BaseLayout className="cover">
                 <h1>{portfolio.title}</h1>
                 <p>{portfolio.body}</p>
                 <p>{portfolio.id}</p>
